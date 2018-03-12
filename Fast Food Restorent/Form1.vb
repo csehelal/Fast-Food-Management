@@ -6,7 +6,7 @@
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-
+        System.Diagnostics.Process.Start("https://www.linkedin.com/bhostdeveloper")
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -47,5 +47,13 @@
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
         Application.Exit()
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        System.Diagnostics.Process.Start("https://www.facebook.com/csehelal")
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        System.Diagnostics.Process.Start("https://twitter.com/")
     End Sub
 End Class
